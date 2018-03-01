@@ -21,8 +21,8 @@ I accept the following commands:
 end
 
 def list(songs)
-  song.each_with_index do |song, index|
-    puts "#{index+1}. #{song}"
+  song.each_with_index do |song, i|
+    puts "#{i+1}. #{song}"
   end
 end
 
